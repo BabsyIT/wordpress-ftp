@@ -7,7 +7,7 @@ RUN docker-php-ext-install ftp
 RUN php -m | grep ftp
 
 # Add labels for better container management
-LABEL maintainer="your-email@example.com"
+LABEL maintainer="it@babsy.ch"
 LABEL description="WordPress with FTP extension support"
 LABEL version="1.0"
 
